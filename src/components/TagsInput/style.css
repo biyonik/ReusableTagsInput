@@ -1,0 +1,46 @@
+.tags-input-wrapper {
+    background-color: #fff;
+    padding: .5em;
+    border: 1px solid #dbdbdb;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 2.25rem;
+    box-sizing: border-box;
+}
+
+.tag-item {
+    color: #212529;
+    background-color: #eee;
+    margin-right: .3em;
+    padding: .25em .4em;
+    font-size: 75%;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 1.25em;
+    padding-left: .6em;
+}
+
+a.remove-tag {
+    text-decoration: none;
+}
+
+.tag-input {
+    color: #495057;
+    flex: 1;
+    background: transparent;
+    border: none;
+}
+
+.tag-input:focus {
+    outline: none;
+}
+
+.tag-input.tag-exists {
+    color: red;
+    border-color: red;
+    text-decoration: line-through;
+}
